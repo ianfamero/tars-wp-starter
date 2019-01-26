@@ -1,0 +1,77 @@
+@import "_base.scss";
+
+/*================================================== 
+HEADER
+==================================================*/
+.header {
+  .title {
+
+  }
+  ul.menu {
+    li {
+      list-style: none;
+      display: inline-block;
+    }
+    li.selected {
+      background: #000;
+      a { 
+        color: #fff; 
+      }
+    }
+  }
+  .mobile-menu {
+    .handle {
+      cursor: pointer;
+    }
+    .body {
+      display: none;
+      ul {
+        li {
+          list-style: none;
+        }
+        li.selected {
+
+        }
+      }
+    }
+  }
+}
+
+/*================================================== 
+FRONT PAGE
+==================================================*/
+.front-page {
+
+}
+
+/*================================================== 
+CONTENT
+==================================================*/
+.content {
+
+}
+
+/*================================================== 
+FOOTER
+==================================================*/
+.footer {
+  ul.quick-links {
+    li {
+      list-style: none;
+    }
+  }
+  ul.social-media {
+    li {
+      list-style: none;
+      display: inline-block;
+    }
+  }
+}
+
+/*================================================== 
+OTHER
+==================================================*/
+.page-not-found {
+  padding: 100px;
+  text-align: center;
+}

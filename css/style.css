@@ -1,0 +1,40 @@
+/*================================================== 
+HEADER
+==================================================*/
+.header ul.menu li {
+  list-style: none;
+  display: inline-block; }
+.header ul.menu li.selected {
+  background: #000; }
+  .header ul.menu li.selected a {
+    color: #fff; }
+.header .mobile-menu .handle {
+  cursor: pointer; }
+.header .mobile-menu .body {
+  display: none; }
+  .header .mobile-menu .body ul li {
+    list-style: none; }
+
+/*================================================== 
+FRONT PAGE
+==================================================*/
+/*================================================== 
+CONTENT
+==================================================*/
+/*================================================== 
+FOOTER
+==================================================*/
+.footer ul.quick-links li {
+  list-style: none; }
+.footer ul.social-media li {
+  list-style: none;
+  display: inline-block; }
+
+/*================================================== 
+OTHER
+==================================================*/
+.page-not-found {
+  padding: 100px;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

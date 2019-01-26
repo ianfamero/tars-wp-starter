@@ -1,0 +1,22 @@
+
+$max-width: 1366px;
+$form-input-width: 250px;
+
+$base-color: #000;
+$base-color-lighter: lighten($base-color, 20%);
+
+$gray-color: #2e3532;
+$gray-color-lighter: lighten($gray-color, 7%);
+
+$warning-color: #ffae00;
+$warning-color-lighter: lighten($warning-color, 7%);
+
+$danger-color: #EF3C20;
+$danger-color-lighter: lighten($danger-color, 7%);
+
+$transition: all 0.3s;
+
+// SET SIDE PADDINGS BASED ON VIEWPORT
+$sp-lr-padding: 5px;
+$tb-lr-padding: 30px;
+$dt-lr-padding: 100px;
