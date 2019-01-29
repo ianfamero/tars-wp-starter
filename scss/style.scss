@@ -13,7 +13,7 @@ HEADER
       display: inline-block;
     }
     li.selected {
-      background: #000;
+      background: $base-color;
       a { 
         color: #fff; 
       }
@@ -30,9 +30,22 @@ HEADER
           list-style: none;
         }
         li.selected {
-
+          background: $base-color;
+          color: #fff;
         }
       }
+    }
+  }
+  .mobile {
+    display: none;
+  }
+  @media only screen and (max-width: 900px) { // adjust as needed
+    padding: 0 !important;
+    .mobile {
+      display: block;
+    }
+    .desktop {
+      display: none;
     }
   }
 }
