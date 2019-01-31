@@ -26,9 +26,9 @@
             </div>
             <div class="body" id="mobile-menu-body">
               <ul>
-                <a href="<?php echo site_url('/'); ?>"><li <?php if(is_front_page()) echo 'class="selected"'; ?>>Home</li></a>
-                <a href="<?php echo site_url('/blog'); ?>"><li <?php if(is_home() or get_post_type() == 'post') echo 'class="selected"'; ?>>Blog</li></a>
-                <a href="<?php echo site_url('/contact'); ?>"><li <?php if(is_page('contact')) echo 'class="selected"'; ?>>Contact</li></a>
+                <li <?php if(is_front_page()) echo 'class="selected"'; ?>><a href="<?php echo site_url('/'); ?>">Home</a></li>
+                <li <?php if(is_home() or get_post_type() == 'post') echo 'class="selected"'; ?>><a href="<?php echo site_url('/blog'); ?>">Blog</a></li>
+                <li <?php if(is_page('contact')) echo 'class="selected"'; ?>><a href="<?php echo site_url('/contact'); ?>">Contact</a></li>
               </ul>
             </div>
           </div>

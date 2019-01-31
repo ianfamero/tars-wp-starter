@@ -28,10 +28,16 @@ HEADER
       ul {
         li {
           list-style: none;
+          a {
+            display: inline-block;
+            width: 100%;
+          }
         }
         li.selected {
-          background: $base-color;
-          color: #fff;
+          a {
+            background: $base-color;
+            color: #fff;
+          }
         }
       }
     }
