@@ -9,14 +9,19 @@
         if(function_exists('yoast_breadcrumb')) {
           yoast_breadcrumb('<p id="breadcrumbs">','</p>');
         }
-
-        while(have_posts()) {
-          the_post(); ?>
-          <h1><?php the_title(); ?></h1>
-          <small><strong>Posted on <?php echo the_time('F j, Y'); ?></strong></small>
-          <p><?php the_content(); ?></p>
-        <?php
+        if(have_posts()) {
+          while(have_posts()) {
+            the_post(); ?>
+            <h1><?php the_title(); ?></h1>
+            <small><strong>Posted on <?php echo the_time('F j, Y'); ?></strong></small>
+            <p><?php the_content(); ?></p>
+          <?php
+          }
         }
+        // uncomment if using DISQUS
+        // if (comments_open() || get_comments_number()) {
+        //   comments_template();
+        // }
         ?>
       </div>
       <div class="sp-col-12 dt-col-4">
