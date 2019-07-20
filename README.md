@@ -1,2 +1,2 @@
 # TARS WP Starter
-A WordPress starter theme made with Tars CSS
+A WordPress starter theme built on top of Tars CSS
