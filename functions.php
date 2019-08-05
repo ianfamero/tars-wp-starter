@@ -5,11 +5,9 @@ function files() {
   wp_enqueue_style('animate', get_theme_file_uri('css/animate.css'));
   wp_enqueue_style('style', get_theme_file_uri('css/style.css'));
   wp_enqueue_style('wp-style', get_stylesheet_uri());
-  // wp_enqueue_style('fa', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
-  wp_enqueue_style('fa', get_theme_file_uri('extensions/font-awesome/css/font-awesome.min.css'));
+  wp_enqueue_style('fa', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
-  // wp_register_script('jquery', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js', null, null, true);
-  wp_register_script('jquery', get_theme_file_uri('js/jquery.min.js'), null, null, true);
+  wp_register_script('jquery', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js', null, null, true);
   wp_register_script('scroll-out', get_theme_file_uri('js/scroll-out.min.js'), null, null, true);
   wp_register_script('scripts', get_theme_file_uri('js/scripts.js'), null, null, true);
   wp_enqueue_script('jquery');

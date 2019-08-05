@@ -291,7 +291,7 @@ textarea {
   input[type="search"]:disabled,
   input[type="password"]:disabled,
   select:disabled,
-  textarea::disabled {
+  textarea:disabled {
     background: #ccc;
   }
   input[type="text"]:focus,
